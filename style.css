@@ -1,8 +1,22 @@
 /* Elements */
 body{
-    background-color: rgb(15, 14, 14);
+    background-color: rgb(190, 186, 186);
     /* Google Fonts*/
-    font-size: 30pt;
+    font-size: 11pt;
+    font-weight: 400;
+    color: #333;
+    width: 100vw;
+    height: 100vw;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: rgb(230, 207, 222);
+    height: auto;
+    padding: 20px;
+    margin: 0px;
 }
 /* ID's*/
 
