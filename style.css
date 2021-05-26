@@ -1,23 +1,113 @@
 /* Elements */
 body{
-    background-color: rgb(190, 186, 186);
-    /* Google Fonts*/
-    font-size: 11pt;
-    font-weight: 400;
-    color: #333;
-    width: 100vw;
-    height: 100vw;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
+    background-color:rgba(252, 252, 203, 0.5);
+    font-family:'Nunito', sans-serif;
+    font-size:12pt;
+    font-weight:400;
+    color:#333;
+    width:100vw;
+    height:100vw;
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
 }
 
 header{
-    background-color: rgb(230, 207, 222);
-    height: auto;
-    padding: 20px;
-    margin: 0px;
+    background-color:pink;
+    height:auto;
+    padding:20px;
+    margin:0px;
+}
+ main{
+     width:100%;
+     padding:30px 100px;
+     box-sizing:border-box;
+
+ }
+ footer{
+     color:#333;
+     background-color:pink;
+     text-align:right;
+     height:auto;
+     padding:20px;
+     margin:0px; 
+ }
+ h1{
+    font-size:3.5rem;
+    font-family:'Dancing Script', cursive;
+    /* font-weight:700; */
+    margin: 0px 0px 10px;
+ }
+ h2{
+    font-size:1.5rem;
+    font-weight:700;
+    text-transform:uppercase;
+    
+ }
+ h3{
+    font-family:'Dancing Script', cursive;
+    font-size:2rem;
+    font-weight:700;
+    color: pink;
+    margin:5px;
+ }
+ h4{
+    font-weight:900;
+    font-style:italic;
+    margin:10px 0px 0px;
+    font-family: 'Dancing Script', cursive;
+    color:rgb(139, 41, 58);
+ }
+ p{
+     text-align:justify;
+     margin:.5rem 0px;
+ }
+ img{
+     width:250px;
+     margin:10px 0px;
+     cursor: pointer;
+ }
+ hr{
+     height:.4rem;
+     background-color:pink;
+     border:none;
+     margin:20px 0px 0px;
+ }
+a{
+    color:pink;
+    font-weight:600;
+    text-decoration:none;
+}
+a:hover{
+    color: powderblue !important;
+}
+a:visited{
+    color:greenyellow;
 }
 /* ID's*/
 
+#page-title{
+    color:rgb(211, 83, 162);
+    text-align:center;
+}
+#tagline{
+    font-family:'Kalam', cursive;
+    color:rgb(68, 54, 67);
+    text-align:center;
+    margin-right:0px;
+}
+
+#intro{
+    font-style:italic;
+    margin-bottom:0px;
+}
+
 /* Classes*/
+.right{
+    float:right;
+    margin-left:20px
+}
+.bordered{
+    border:4px solid rgb(207, 255, 192);
+    padding:0px;
+}
